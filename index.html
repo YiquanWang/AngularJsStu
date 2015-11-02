@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="wyqapp">
+<head>
+	<title>AngularJs Demo</title>
+
+	<script src="scripts/angular.js"></script>
+	<script src="modules/wyqapp.js"></script>
+	
+</head>
+<body>
+	<input type='text' ng-model="name"/>
+	<p>Hello {{name}}
+
+    <p><p><p>
+
+	<input type='text' ng-model="info.name"/>
+	<p>Hello {{info.name}}
+
+
+
+
+	<div ng-controller="wyqcontroller">
+      <h1>Hello {{ clock }}!</h1>
+    </div>
+
+
+
+
+</body>
+</html>
